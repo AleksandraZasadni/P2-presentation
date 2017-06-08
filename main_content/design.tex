@@ -18,18 +18,19 @@
 
 
 
-\subsection{Industrial Manipulator}
-\begin{frame}{Selection of Industrial Manipulator}{Market Analysis}
-\centering{
-\includegraphics[width=.975\textwidth]{graphics/andrej/market_analysis}
+% \begin{frame}{Selection of Industrial Manipulator}{Market Investigation}
+% \centering{
+% \includegraphics[width=.975\textwidth]{graphics/andrej/market_analysis}
 
-\tiny{(abb.com) (cloosrobot.com)}}
-\end{frame}
+% \tiny{(abb.com) (cloosrobot.com)}}
+% \end{frame}
 
-\begin{frame}{Selection of Industrial Manipulator}{\textit{KUKA KR 6 R700 sixx}}
+\begin{frame}{Selection of Industrial Manipulator}
 \begin{columns}
-\column{.53\textwidth}
+\column{.55\textwidth}
     \begin{itemize}
+        \item Market investigation
+    \vspace{2.5mm}
         \item \textit{Grundfos}
             \begin{itemize}
                 \item Ease the implementation
@@ -38,26 +39,24 @@
     \vspace{2.5mm}
         \item \textit{KUKA KR 6 R700 sixx}
             \begin{itemize}
-                \item Six revolute joints
-                \item Maximum payload of $6$ $kg$
-                \item Reach of $707$ $mm$
-                \item Repeatability of $30\cdot10^{-3}$ $mm$
+                \item Maximum payload - $6.00$ $kg$
+                \item Reach - $707$ $mm$
+                \item Repeatability - $30.0\cdot10^{-3}$ $mm$
             \end{itemize}
     \end{itemize}
-\column{.47\textwidth}
+\column{.45\textwidth}
 \centering{
-\includegraphics[width=0.775\textwidth]{graphics/andrej/kuka}
+\includegraphics[width=0.815\textwidth]{graphics/andrej/kuka}
 
 \tiny{(kuka.com)}}
 \end{columns}
 \end{frame}
 
-\subsection{Conveyor System}
 \begin{frame}{Selection of Conveyor System}
     \begin{itemize}
-        \item Chain conveyor manufactured by \textit{CALDAN CONVEYOR A/S}
+        \item Chain conveyor
             \begin{itemize}
-                \item \textit{Grundfos}
+                \item \textit{CALDAN CONVEYOR A/S}
             \end{itemize}
     \end{itemize}
 \vspace{5mm}
@@ -68,27 +67,52 @@
 \end{frame}
 
 
-\subsection{Fixture}
 \begin{frame}{Fixture}{Design Suggestion}
 \begin{itemize}
-    \item Accessible welding trajectories on both sides
-    \item Manually actuated clamps holding the vanes in place
+    \item Accessible welding trajectories
+    \item Clamps securing the vanes
     \item Flippable
 \end{itemize}
 
-\begin{columns}
-\column{.5\textwidth}
-  \centering
-  \includegraphics[width=.85\textwidth]{graphics/andrej/if_top}
-\column{.5\textwidth}
-  \centering
-    \includegraphics[width=.85\textwidth]{graphics/andrej/if_bottom}
-\end{columns}
+% \begin{columns}
+% \column{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.85\textwidth]{graphics/andrej/if_top}
+% \column{.5\textwidth}
+%   \centering
+%     \includegraphics[width=.85\textwidth]{graphics/andrej/if_bottom}
+% \end{columns}
+
+\centering{
+\includegraphics[width=.9\textwidth]{graphics/andrej/if_cut}}
+
+\end{frame}
+
+\begin{frame}{ATTEMPT2: Fixture}{Design Suggestion}
+\begin{itemize}
+    \item Accessible welding trajectories
+    \item Clamps securing the vanes
+    \item Flippable
+\end{itemize}
+
+% \begin{columns}
+% \column{.5\textwidth}
+%   \centering
+%   \includegraphics[width=.85\textwidth]{graphics/andrej/if_top}
+% \column{.5\textwidth}
+%   \centering
+%     \includegraphics[width=.85\textwidth]{graphics/andrej/if_bottom}
+% \end{columns}
+
+\centering{
+\includegraphics[width=.9\textwidth]{graphics/andrej/if_cut_beamer}}
+
 \end{frame}
 
 \begin{frame}{Fixture}{Fixture Flipping and Fixing System}
  \centering
     \includegraphics[width=0.9\textwidth]{graphics/andrej/fixture_flipping_mechanism}
+
 \end{frame}
 
 
@@ -103,34 +127,3 @@
 
 
 
-
-
-\subsection{Safety Precautions}
-\begin{frame}{Risk Assessment}{HUGO}
-\begin{itemize}
-    \item \textit{ISO 12100}
-    \item Origins of hazard
-        \begin{itemize}
-            \item Laser radiation
-            \item Emission of metal fumes
-            \item Industrial manipulator
-            \item Conveyor 
-        \end{itemize}
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Risk Reduction}
-\begin{itemize}
-    \item Guards
-        \begin{itemize}
-            \item Perimeter wall and ceiling
-            \item Laser barriers attached to the wall and ceiling % 10,000W per cm2 with beam site of 5mm for 100 seconds
-        \end{itemize}
-    \item Ventilation system
-    \item Interlocking devices
-    \item Material flow monitoring
-    \item Welding camera
-    \item Emergency button
-    \item Informative signs
-\end{itemize}
-\end{frame}

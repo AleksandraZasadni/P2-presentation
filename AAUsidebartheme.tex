@@ -40,12 +40,16 @@
 \usepackage{booktabs}
 \usepackage{pdfpages}
 \usepackage{pgfpages}
+\usepackage{multimedia}
+\usepackage{hyperref}
 
 %% Uncomment the following 2 for handout with notes
 
 %\usepackage{handoutWithNotes}
 %\pgfpagesuselayout{3 on 1 with notes}[a4paper,border shrink=5mm]
 
+%To change font in a slide write \Fontvi in the frame.
+\newcommand\Fontvi{\fontsize{7}{4}\selectfont}
 % colored hyperlinks
 \newcommand{\chref}[2]{%
   \href{#1}{{\usebeamercolor[bg]{AAUsidebar}#2}}%
@@ -54,11 +58,11 @@
 \title[]% optional, use only with long paper titles
 {\textit{CORPS}}
 
-\subtitle{- Cell Operating Robot Production System -}  % could also be a conference name
+\subtitle{- Cell Operating Robotic Production System -}  % could also be a conference name
 
 \date{\today}
 
-\author[rob1B217] % optional, use only with lots of authors
+\author[rob2B374] % optional, use only with lots of authors
 {
   rob2B374\\
   \href{mailto:rob2b374@student.aau.dk}{{\tt rob2b374@student.aau.dk}}
@@ -117,7 +121,11 @@
 \phantomsection
 \input{main_content/design}
 \phantomsection
+\input{main_content/design_test}
+\phantomsection
 \input{main_content/math}
+\phantomsection
+\input{main_content/perf_test}
 \phantomsection
 \input{main_content/DCFP}
 

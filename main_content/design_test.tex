@@ -1,0 +1,98 @@
+
+\begin{frame}{Risk Assessment}{Karl H. B. Markoff}
+\begin{itemize}
+    \item \textit{ISO 12100}
+    \item Origins of hazard
+        \begin{itemize}
+            \item Laser radiation
+            \item Emission of metal fumes
+            \item Industrial manipulator
+            \item Conveyor 
+            \item Others
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Risk Reduction}
+\begin{itemize}
+    \item Guards
+    \item Ventilation system
+    \item Interlocking devices
+    \item Material flow monitoring
+    \item Welding camera
+    \item Emergency button
+    \item Informative signs
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Design Summary}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{graphics/hugo/workc}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Operating Procedure and Simulation}
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{graphics/hugo/sim}
+\end{figure}
+\end{frame}
+
+\section{Design Simulation}
+\begin{frame}{Design Simulation}{Dimensions}
+\begin{itemize}
+        \item \textbf{Purpose:} $4.00\cdot10^{3}$ $\times$ $4.00\cdot10^{3}$ $mm$ 
+        \item \textbf{Result:} Success
+\end{itemize}
+\centering{
+\includegraphics[width=0.65\textwidth]{graphics/hugo/all_diamensions}}
+
+\end{frame}
+
+\begin{frame}{Design Simulation}{Workcell Safety}
+\begin{itemize}
+        \item \textbf{Purpose:}  Fulfil the safety requirements
+        \item \textbf{Result:} Success
+\end{itemize}
+\begin{columns}
+\column{0.5\textwidth}
+\centering{
+\includegraphics[height=2.9cm]{graphics/hugo/safety_ceiling_camera_top_view}}
+\column{0.5\textwidth}
+\centering{
+\includegraphics[height=2.9cm]{graphics/hugo/security1}}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Design Simulation}{Material Flow}
+\begin{itemize}
+    \item \textbf{Purpose:} Material flow without human aid
+    \item \textbf{Result:} Success
+\end{itemize}        
+    \centering{
+    \includegraphics[scale=1.3]{graphics/hugo/work_cell}}
+\end{frame}
+
+\begin{frame}{Design Simulation}{Cycle Time}
+\begin{itemize}
+        \item \textbf{Purpose:} Cycle time is within $45.0$ $s$ 
+        \item \textbf{Result:} Failed
+\end{itemize}       
+\begin{table}[!h]
+\centering
+\begin{tabular}{ccc}
+    \hline
+     \rowcolor{beamer@barcolor} Impellers & Total Time ($s$) & Time per Impeller ($s$) \\
+     \hline
+      $2$ & $125$ & $62.5$\\
+      \rowcolor{beamer@barcolor} $4$ & $261$ & $65.3$ \\
+      $6$ & $378$ & $63.0$ \\
+      \rowcolor{beamer@barcolor} $8$ & $504$ & $63.0$\\
+      $10$ & $631$ & $63.1$ \\
+      \hline
+\end{tabular}
+
+\end{table}
+\end{frame}
